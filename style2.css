@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Apoc";
-  src: url("./assets/fonts/ApocTrial-LightItalic.otf");
+  src: url(ApocTrial-LightItalic.otf);
 }
 
 @font-face {
   font-family: "Lausanne";
-  src: url("./assets/fonts/Lausanne.otf");
+  src: url(Lausanne.otf);
 }
 
 html,

@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Apoc";
-  src: url("./assets/fonts/ApocTrial-LightItalic.otf");
+  src: url(ApocTrial-LightItalic.otf);
 }
 
 @font-face {
   font-family: "Lausanne";
-  src: url("./assets/fonts/Lausanne.otf");
+  src: url(Lausanne.otf);
 }
 
 html,
@@ -70,13 +70,4 @@ canvas {
   color: #169264;
 
   text-align: center;
-}
-
-.about {
-  font-family: "lausanne";
-
-  font-size: 5pc;
-  line-height: 4pc;
-  margin-top: 80px;
-  margin-left: 50px;
 }
