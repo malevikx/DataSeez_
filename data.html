@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Svalbard Global Seed Vault</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <style>
+    button {
+      background-color: transparent;
+      border-color: #169264;
+      border-radius: 30px;
+      position: absolute;
+      padding: 12px;
+
+      left: 80px;
+      top: 40px;
+      transform: translate(-50%, -50%);
+      text-align: center;
+
+      color: #169264;
+      font-size: 25px;
+      font-family: "lausanne";
+
+      border-style: solid;
+    }
+
+    button:hover {
+      font-size: 25px;
+      font-family: "Apoc";
+    }
+  </style>
+
+  <body style="background-color: #f6f6f6">
+    <script src="sketch.js"></script>
+
+    <div class="contenitore">
+      <div class="wrapper" id="sketch"></div>
+
+      <input
+        id="slider"
+        type="range"
+        min="2008"
+        max="2021"
+        value="2021"
+        step="1"
+      />
+      <p id="currentyear">2021</p>
+    </div>
+  </body>
+</html>
